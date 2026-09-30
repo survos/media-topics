@@ -1,0 +1,736 @@
+{
+"@context": "https://www.iptc.org/std/IKOS/IKOS.jsonld", 
+"uri": "http://cv.iptc.org/newscodes/genre/", 
+"type": "http://www.w3.org/2004/02/skos/core#ConceptScheme", 
+"prefSchemeAlias": "genre", 
+"authority": "http://www.iptc.org", 
+"copyrightHolder": "IPTC, International Press Telecommunications Council - https://iptc.org", 
+"licenceLink": "http://creativecommons.org/licenses/by/4.0/", 
+"dateReleased": "2024-02-13T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Genre"},
+"definition" : {
+"en-GB" : "Indicates a nature, journalistic or intellectual characteristic of an item. "},
+"note" : {
+},
+"hasTopConcept" : [
+"http://cv.iptc.org/newscodes/genre/Actuality", "http://cv.iptc.org/newscodes/genre/Advertiser_Supplied", "http://cv.iptc.org/newscodes/genre/Advice", "http://cv.iptc.org/newscodes/genre/Advisory", "http://cv.iptc.org/newscodes/genre/almanac", "http://cv.iptc.org/newscodes/genre/Analysis", "http://cv.iptc.org/newscodes/genre/Anniversary", "http://cv.iptc.org/newscodes/genre/Archive_material", "http://cv.iptc.org/newscodes/genre/Background", "http://cv.iptc.org/newscodes/genre/Behind_the_Story", "http://cv.iptc.org/newscodes/genre/Biography", "http://cv.iptc.org/newscodes/genre/Birth_Announcement", "http://cv.iptc.org/newscodes/genre/Current", "http://cv.iptc.org/newscodes/genre/Curtain_Raiser", "http://cv.iptc.org/newscodes/genre/Daybook", "http://cv.iptc.org/newscodes/genre/Exclusive", "http://cv.iptc.org/newscodes/genre/Fact_Check", "http://cv.iptc.org/newscodes/genre/Feature", "http://cv.iptc.org/newscodes/genre/Fixture", "http://cv.iptc.org/newscodes/genre/Forecast", "http://cv.iptc.org/newscodes/genre/From_the_Scene", "http://cv.iptc.org/newscodes/genre/Help_Us_to_Report", "http://cv.iptc.org/newscodes/genre/History", "http://cv.iptc.org/newscodes/genre/horoscope", "http://cv.iptc.org/newscodes/genre/Interview", "http://cv.iptc.org/newscodes/genre/ListingOfFacts", "http://cv.iptc.org/newscodes/genre/LiveCoverage", "http://cv.iptc.org/newscodes/genre/Music", "http://cv.iptc.org/newscodes/genre/Obituary", "http://cv.iptc.org/newscodes/genre/Opinion", "http://cv.iptc.org/newscodes/genre/Polls_and_Surveys", "http://cv.iptc.org/newscodes/genre/Press_Release", "http://cv.iptc.org/newscodes/genre/Press-Digest", "http://cv.iptc.org/newscodes/genre/Preview", "http://cv.iptc.org/newscodes/genre/Profile", "http://cv.iptc.org/newscodes/genre/Program", "http://cv.iptc.org/newscodes/genre/Question_and_Answer_Session", "http://cv.iptc.org/newscodes/genre/Quote", "http://cv.iptc.org/newscodes/genre/Raw_Sound", "http://cv.iptc.org/newscodes/genre/Response_to_a_Question", "http://cv.iptc.org/newscodes/genre/Results_Listings_and_Statistics", "http://cv.iptc.org/newscodes/genre/Retrospective", "http://cv.iptc.org/newscodes/genre/Review", "http://cv.iptc.org/newscodes/genre/Satire", "http://cv.iptc.org/newscodes/genre/Scener", "http://cv.iptc.org/newscodes/genre/Side_bar_and_supporting_information", "http://cv.iptc.org/newscodes/genre/Special_Report", "http://cv.iptc.org/newscodes/genre/Sponsored", "http://cv.iptc.org/newscodes/genre/Summary", "http://cv.iptc.org/newscodes/genre/Supported", "http://cv.iptc.org/newscodes/genre/Synopsis", "http://cv.iptc.org/newscodes/genre/Text_only", "http://cv.iptc.org/newscodes/genre/Transcript_and_Verbatim", "http://cv.iptc.org/newscodes/genre/UGC", "http://cv.iptc.org/newscodes/genre/Update", "http://cv.iptc.org/newscodes/genre/Voicer", "http://cv.iptc.org/newscodes/genre/Wrap", "http://cv.iptc.org/newscodes/genre/Wrapup"
+],
+"conceptSet" : [
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Actuality", 
+"qcode" : "genre:Actuality", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Actuality"},
+"definition" : {
+"en-GB" : "Recording of an event"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Advertiser_Supplied", 
+"qcode" : "genre:Advertiser_Supplied", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-04-07T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Advertiser Supplied"},
+"definition" : {
+"en-GB" : "Content is supplied by an organisation or individual that has paid the news provider for its placement"},
+"created" : "2020-04-07T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Advice", 
+"qcode" : "genre:Advice", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Advice"},
+"definition" : {
+"en-GB" : "Letters and answers about readers' personal problems"},
+"created" : "2002-07-15T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Advisory", 
+"qcode" : "genre:Advisory", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2012-10-04T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Advisory"},
+"definition" : {
+"en-GB" : "Recommendation on editorial or technical matters by a provider to its customers"},
+"created" : "2012-10-04T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/almanac", 
+"qcode" : "genre:almanac", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-05-10T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "On This Day"},
+"definition" : {
+"en-GB" : "List of data, including birthdays of famous people and items of historical significance, for a given day"},
+"created" : "2006-08-21T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Analysis", 
+"qcode" : "genre:Analysis", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Analysis"},
+"definition" : {
+"en-GB" : "Data and conclusions drawn by a journalist who has conducted in depth research for a story"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Anniversary", 
+"qcode" : "genre:Anniversary", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2019-07-30T12:00:00+00:00", 
+"retired" : "2019-07-30T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Anniversary"},
+"definition" : {
+"en-GB" : "Stories about the anniversary of some important event that took place in recent history, usually bringing a short review of the event itself. "},
+"created" : "2003-06-12T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Archive_material", 
+"qcode" : "genre:Archive_material", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-05-10T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Archival material"},
+"definition" : {
+"en-GB" : "Material selected from the originator's archive that has been previously distributed"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Background", 
+"qcode" : "genre:Background", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Background"},
+"definition" : {
+"en-GB" : "Scene setting and explanation for an event being reported"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Behind_the_Story", 
+"qcode" : "genre:Behind_the_Story", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-04-07T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Behind the Story"},
+"definition" : {
+"en-GB" : "The content describes how a story was reported and offers context on the reporting"},
+"created" : "2020-04-07T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Biography", 
+"qcode" : "genre:Biography", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2012-10-04T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Biography"},
+"definition" : {
+"en-GB" : "Facts and background about a person"},
+"created" : "2012-10-04T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Birth_Announcement", 
+"qcode" : "genre:Birth_Announcement", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2019-07-30T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Birth Announcement"},
+"definition" : {
+"en-GB" : "News of newly born children"},
+"created" : "2019-07-30T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Current", 
+"qcode" : "genre:Current", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-05-10T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Current Events"},
+"definition" : {
+"en-GB" : "Content about events taking place at the time of the report"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Curtain_Raiser", 
+"qcode" : "genre:Curtain_Raiser", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Curtain Raiser"},
+"definition" : {
+"en-GB" : "Information or kickoff piece for a live event that is about to take place"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Daybook", 
+"qcode" : "genre:Daybook", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Planner"},
+"definition" : {
+"en-GB" : "Items filed on a regular basis that are lists of upcoming events with time and place, designed to inform others of events for planning purposes, also known as daybook or agenda"},
+"created" : "2002-07-15T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Exclusive", 
+"qcode" : "genre:Exclusive", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Exclusive"},
+"definition" : {
+"en-GB" : "News reported by one journalist or news organisation before others, and of exceptional originality or importance"},
+"created" : "2002-07-15T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Fact_Check", 
+"qcode" : "genre:Fact_Check", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-04-07T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Fact Check"},
+"definition" : {
+"en-GB" : "The news item looks into the truth or falsehood of another reported news item or assertion (for example a statement on social media by a public figure)"},
+"created" : "2020-04-02T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Feature", 
+"qcode" : "genre:Feature", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Feature"},
+"definition" : {
+"en-GB" : "Content about a particular event or individual that may not be significant to current breaking news"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Fixture", 
+"qcode" : "genre:Fixture", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Fixture"},
+"definition" : {
+"en-GB" : "Items published on a regular schedule, such as columns, cartoons, stock prices and weather forecasts"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Forecast", 
+"qcode" : "genre:Forecast", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Forecast"},
+"definition" : {
+"en-GB" : "Opinion as to the outcome of a future event"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/From_the_Scene", 
+"qcode" : "genre:From_the_Scene", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "From the Scene"},
+"definition" : {
+"en-GB" : "Report from the location of an event"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Help_Us_to_Report", 
+"qcode" : "genre:Help_Us_to_Report", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-04-07T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Help us to Report"},
+"definition" : {
+"en-GB" : "The news item is a call for readers to provide information that may help journalists to investigate a potential news story"},
+"created" : "2020-04-07T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/History", 
+"qcode" : "genre:History", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "History"},
+"definition" : {
+"en-GB" : "The object content is based on previous rather than current events. "},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/horoscope", 
+"qcode" : "genre:horoscope", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Horoscope"},
+"definition" : {
+"en-GB" : "Astrological forecasts "},
+"created" : "2006-08-21T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Interview", 
+"qcode" : "genre:Interview", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Interview"},
+"definition" : {
+"en-GB" : "The report of a dialogue between a journalist and a news source or significant person"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/ListingOfFacts", 
+"qcode" : "genre:ListingOfFacts", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2012-10-04T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Fact Box"},
+"definition" : {
+"en-GB" : "Usually a sidebar that lists facts related to a topic or story"},
+"created" : "2012-10-04T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/LiveCoverage", 
+"qcode" : "genre:LiveCoverage", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Live Coverage"},
+"definition" : {
+"en-GB" : "News item containing ongoing, up to the minute coverage of a news event, such as a live blog or live video feed"},
+"created" : "2021-04-28T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Music", 
+"qcode" : "genre:Music", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Music"},
+"definition" : {
+"en-GB" : "Content is solely music"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Obituary", 
+"qcode" : "genre:Obituary", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Obituary"},
+"definition" : {
+"en-GB" : "A narrative about an individual's life and achievements for publication after death"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Opinion", 
+"qcode" : "genre:Opinion", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Opinion"},
+"definition" : {
+"en-GB" : "Editorial comment that reflects the views of the author"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Polls_and_Surveys", 
+"qcode" : "genre:Polls_and_Surveys", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Polls and Surveys"},
+"definition" : {
+"en-GB" : "Numeric or other information produced as a result of questionnaires or interviews"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Press_Release", 
+"qcode" : "genre:Press_Release", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Press Release"},
+"definition" : {
+"en-GB" : "Promotional material or information provided to a news organisation"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Press-Digest", 
+"qcode" : "genre:Press-Digest", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Press-Digest"},
+"definition" : {
+"en-GB" : "Roundup of news or editorial content from other sources, published in whole or in part without significant journalistic changes"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Preview", 
+"qcode" : "genre:Preview", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Preview"},
+"definition" : {
+"en-GB" : "Content written ahead of an event, such as a preview of an upcoming summer movie"},
+"created" : "2021-04-28T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Profile", 
+"qcode" : "genre:Profile", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Profile"},
+"definition" : {
+"en-GB" : "Description of the life or activity of a news subject based on facts discovered through research and interviews"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Program", 
+"qcode" : "genre:Program", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2021-04-28T12:00:00+00:00", 
+"retired" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Program"},
+"definition" : {
+"en-GB" : "A news item giving lists of intended events and time to be covered by the news provider. Each program covers a day, a week, a month or a year. The covered period is referenced as a keyword."},
+"changeNote" : {
+"en-GB" : "Retired 2021-04-28. Use Planner instead."},
+"created" : "2002-07-15T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Question_and_Answer_Session", 
+"qcode" : "genre:Question_and_Answer_Session", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Question and Answer Session"},
+"definition" : {
+"en-GB" : "An interview portrayed as a sequence of questions and answers"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Quote", 
+"qcode" : "genre:Quote", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Quote"},
+"definition" : {
+"en-GB" : "Direct quote from a person "},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Raw_Sound", 
+"qcode" : "genre:Raw_Sound", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Raw Sound"},
+"definition" : {
+"en-GB" : "Content is unedited sound without voice"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Response_to_a_Question", 
+"qcode" : "genre:Response_to_a_Question", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Response to a Question"},
+"definition" : {
+"en-GB" : "An audio recording of an individual's response to a question"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Results_Listings_and_Statistics", 
+"qcode" : "genre:Results_Listings_and_Statistics", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Results Listings and Statistics"},
+"definition" : {
+"en-GB" : "Alphanumeric data suitable for presentation in tabular form"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Retrospective", 
+"qcode" : "genre:Retrospective", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Retrospective"},
+"definition" : {
+"en-GB" : "Material that looks back on a specific period of time, such as a season, quarter, year or decade"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Review", 
+"qcode" : "genre:Review", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Review"},
+"definition" : {
+"en-GB" : "A critique of a creative activity or service (for example a book, a film or a restaurant)"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Satire", 
+"qcode" : "genre:Satire", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-04-07T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Satire"},
+"definition" : {
+"en-GB" : "Uses exaggeration, irony, or humour to make a point; not intended to be understood as factual"},
+"created" : "2020-04-07T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Scener", 
+"qcode" : "genre:Scener", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2021-04-28T12:00:00+00:00", 
+"retired" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Scener"},
+"definition" : {
+"en-GB" : "The object contains a description of the event circumstances. "},
+"changeNote" : {
+"en-GB" : "Retired 2021-04-28. Use From the Scene instead."},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Side_bar_and_supporting_information", 
+"qcode" : "genre:Side_bar_and_supporting_information", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Side bar and Supporting Information"},
+"definition" : {
+"en-GB" : "Related content that provides additional context or insight into a news event"},
+"created" : "2004-08-18T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Special_Report", 
+"qcode" : "genre:Special_Report", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Special Report"},
+"definition" : {
+"en-GB" : "In-depth examination of a single subject requiring extensive research, presented either as a single item or as a series of items"},
+"created" : "2002-07-15T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Sponsored", 
+"qcode" : "genre:Sponsored", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-04-07T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Sponsored"},
+"definition" : {
+"en-GB" : "Content is produced on behalf of an organisation or individual that has paid the news provider for production and may approve content publication"},
+"created" : "2020-04-07T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Summary", 
+"qcode" : "genre:Summary", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Briefing"},
+"definition" : {
+"en-GB" : "A summary of a number of news items"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Supported", 
+"qcode" : "genre:Supported", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2020-04-07T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Supported"},
+"definition" : {
+"en-GB" : "Content is produced with financial support from an organisation or individual, yet not approved by the underwriter before or after publication"},
+"created" : "2020-04-07T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Synopsis", 
+"qcode" : "genre:Synopsis", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Synopsis"},
+"definition" : {
+"en-GB" : "A condensed version of a single news item"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Text_only", 
+"qcode" : "genre:Text_only", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"retired" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Text only"},
+"definition" : {
+"en-GB" : "The object contains a transcription of text."},
+"changeNote" : {
+"en-GB" : "Retired 2021-04-28. Use Transcript and Verbatim instead."},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Transcript_and_Verbatim", 
+"qcode" : "genre:Transcript_and_Verbatim", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Transcript and Verbatim"},
+"definition" : {
+"en-GB" : "A word-for-word account of a discussion or briefing"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/UGC", 
+"qcode" : "genre:UGC", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2024-02-13T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "User Generated Content"},
+"definition" : {
+"en-GB" : "Content providing firsthand evidence regarding an event that is captured by non-journalists who are witnesses of or participants in the event"},
+"created" : "2024-02-13T12:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Update", 
+"qcode" : "genre:Update", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"retired" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Update"},
+"definition" : {
+"en-GB" : "The object contains an intraday snapshot (as for electronic services) of a single news subject. "},
+"changeNote" : {
+"en-GB" : "Retired 2021-04-28. Use Synopsis or Briefing instead."},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Voicer", 
+"qcode" : "genre:Voicer", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"prefLabel" : {
+"en-GB" : "Voicer"},
+"definition" : {
+"en-GB" : "Content is only voice"},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Wrap", 
+"qcode" : "genre:Wrap", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"retired" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Wrap"},
+"definition" : {
+"en-GB" : "Complete summary of an event"},
+"changeNote" : {
+"en-GB" : "Retired 2021-04-28. Use Synopsis or Briefing instead."},
+"created" : "2000-10-06T02:00:00+00:00"
+},
+{
+"uri" : "http://cv.iptc.org/newscodes/genre/Wrapup", 
+"qcode" : "genre:Wrapup", 
+ "type": ["http://www.w3.org/2004/02/skos/core#Concept"],
+"inScheme" : [ "http://cv.iptc.org/newscodes/genre/" ], 
+"modified" : "2010-12-15T22:10:01+00:00", 
+"retired" : "2021-04-28T12:00:00+00:00", 
+"prefLabel" : {
+"en-GB" : "Wrapup"},
+"definition" : {
+"en-GB" : "Recap of a running story"},
+"changeNote" : {
+"en-GB" : "Retired 2021-04-28. Use Synopsis or Briefing instead."},
+"created" : "2000-10-06T02:00:00+00:00"
+}]
+
+}
