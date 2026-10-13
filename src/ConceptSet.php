@@ -12,6 +12,7 @@ namespace Survos\MediaTopics;
  * them, but are left out of all(), iteration, count() and search() unless asked for.
  *
  * @template T of Concept
+ *
  * @implements \IteratorAggregate<string, T>
  */
 abstract class ConceptSet implements \IteratorAggregate, \Countable
@@ -40,6 +41,7 @@ abstract class ConceptSet implements \IteratorAggregate, \Countable
 
     /**
      * @param string $reference id, qcode or URI
+     *
      * @return T|null
      */
     public function get(string $reference): ?Concept
@@ -62,7 +64,7 @@ abstract class ConceptSet implements \IteratorAggregate, \Countable
     public function search(string $query, string $locale = self::DEFAULT_LOCALE, int $limit = 20): array
     {
         $words = self::words($query);
-        if ($words === []) {
+        if ([] === $words) {
             return [];
         }
         $scores = [];
@@ -125,7 +127,7 @@ abstract class ConceptSet implements \IteratorAggregate, \Countable
 
     protected static function date(?string $value): ?\DateTimeImmutable
     {
-        return $value === null ? null : new \DateTimeImmutable($value);
+        return null === $value ? null : new \DateTimeImmutable($value);
     }
 
     /** @return list<string> */

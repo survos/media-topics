@@ -24,7 +24,7 @@ final class MediaTopics extends ConceptSet
     {
         parent::__construct($topics, $released);
         foreach ($this->concepts as $topic) {
-            if ($topic->parentId !== null && !isset($this->concepts[$topic->parentId])) {
+            if (null !== $topic->parentId && !isset($this->concepts[$topic->parentId])) {
                 throw new \InvalidArgumentException(sprintf('Media Topic %s has unknown parent %s.', $topic->id, $topic->parentId));
             }
             $this->childIds[$topic->parentId ?? ''][] = $topic->id;
@@ -84,7 +84,7 @@ final class MediaTopics extends ConceptSet
     {
         $ancestors = [];
         $seen = [];
-        for ($topic = $this->get($reference); $topic?->parentId !== null; $topic = $this->concepts[$topic->parentId]) {
+        for ($topic = $this->get($reference); null !== $topic?->parentId; $topic = $this->concepts[$topic->parentId]) {
             if (isset($seen[$topic->id])) {
                 throw new \InvalidArgumentException('Cycle in the Media Topics hierarchy at '.$topic->id);
             }

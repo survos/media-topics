@@ -60,7 +60,7 @@ final class MediaTopicsTest extends TestCase
 
         $seen = [];
         foreach (self::$topics->all(includeRetired: true) as $topic) {
-            self::assertTrue($topic->parentId === null || isset($seen[$topic->parentId]), 'parents come first');
+            self::assertTrue(null === $topic->parentId || isset($seen[$topic->parentId]), 'parents come first');
             $seen[$topic->id] = true;
         }
     }

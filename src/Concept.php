@@ -26,7 +26,8 @@ abstract readonly class Concept
         public ?\DateTimeImmutable $retired = null,
         public ?\DateTimeImmutable $created = null,
         public ?\DateTimeImmutable $modified = null,
-    ) {}
+    ) {
+    }
 
     public function qcode(): string
     {
@@ -40,7 +41,7 @@ abstract readonly class Concept
 
     public function isRetired(): bool
     {
-        return $this->retired !== null;
+        return null !== $this->retired;
     }
 
     /** The label in the locale, else in English; never empty for a published concept. */
